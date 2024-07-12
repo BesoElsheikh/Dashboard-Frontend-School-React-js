@@ -1,0 +1,13 @@
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .calendar{
+    font-size: 10px !important;
+   }
+.calendar_num{
+  font-size: 10px !important;
+}
+}
+

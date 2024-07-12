@@ -1,0 +1,16 @@
+/* .page-link{
+   margin: 10px;
+   border: 1px solid red;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 5px;
+ } */
+
+
+.active{
+  background: red !important;
+   color: #fff  !important;
+   
+ }
+ 

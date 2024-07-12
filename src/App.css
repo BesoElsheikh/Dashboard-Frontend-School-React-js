@@ -1,0 +1,88 @@
+.App {
+  background: #E5E5E5;
+  scrollbar-width: none;
+}
+
+
+
+/* golable */
+svg {
+cursor: pointer;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+/* SideBar */
+.sidebar ul li {
+  /* box-shadow: 0px 1px 1px #3a3a3a; */
+  border-bottom: 1px solid #3a3a3a;
+}
+.content{
+  background: rgba(9, 9, 110, 0.865);
+  border-radius: 10px;
+
+ }
+
+/* calendar-day */
+
+.calendar {
+
+ }
+/* .recharts-layer.recharts-bar{
+  width: 40px;
+} */
+.content {
+  padding: 60px 20px;
+  
+  }
+ @media only screen and (max-width: 750px) {
+
+   .content .images{
+     
+  display: none;
+   }
+
+ }
+ @media only screen and (max-width: 450px) {
+
+  .content {
+    padding: 30px 20px;
+    
+    }
+    .setting{
+      display: flex;
+      flex-direction: column !important;
+    }
+    .fees_group{
+      display: flex;
+      flex-direction: column !important;
+      gap: 20px;
+
+    }
+    .search{
+      width: 120px;
+    }
+
+}
+ 
+@media only screen and (max-width: 350px) {
+  .content {
+  background: transparent;
+  box-shadow: none;
+
+    
+    }
+    .content p{
+    color: black;
+    }
+ .btn_save button{
+  padding: 10px 10px !important;
+ }
+
+ .btn_link  {
+  display: flex;
+  flex-direction: column!important;
+  }
+}
